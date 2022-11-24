@@ -1,2 +1,2 @@
 # omnifood
-A healthy meal delivery system using responsive web design
+A healthy meal delivery system using responsive web design.
