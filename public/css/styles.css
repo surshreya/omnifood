@@ -164,6 +164,37 @@ header {
 }
 
 /*
+  FEATURED IN
+*/
+
+.section-featured-in {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #888;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  margin-bottom: 2.4rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  /*
+  Make the images black
+  */
+  filter: brightness(0);
+  opacity: 50%;
+}
+/*
   HOW IT WORKS 
 */
 
