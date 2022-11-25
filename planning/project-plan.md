@@ -21,19 +21,17 @@ Sell monthly subscription.
 1. One page marketing website, no sitemap
 
 2. Website personality
-
    1. Startup/Upbeat
    2. Calm/Peaceful
 
 3. Page Plan section
-
-- Navigation
-- Hero
-- Featured In
-- Features
-- How it works ( Z Pattern)
-- Meals+diets
-- Testimonials + Gallery ( Grid )
-- Pricing
-- Call to Action
-- Footer
+   - Navigation
+   - Hero
+   - Featured In
+   - Features
+   - How it works ( Z Pattern)
+   - Meals+diets
+   - Testimonials + Gallery ( Grid )
+   - Pricing
+   - Call to Action
+   - Footer
