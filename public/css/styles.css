@@ -544,7 +544,7 @@ header {
   CTA
 */
 .section-cta {
-  padding: 3.2rem 0;
+  padding: 3.2rem 0 9.6rem 0;
 }
 
 .cta {
@@ -554,6 +554,7 @@ header {
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   border-radius: 11px;
   overflow: hidden;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
 }
 
 .cta-heading {
@@ -620,5 +621,77 @@ select {
 
 .cta *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.7);
+}
+
+/*
+FOOTER
+*/
+
+footer {
+  padding: 9.6rem 0 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.copy-right-text {
+  margin-top: auto;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.6rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #888;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.address {
+  font-size: 1.6rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.contacts .footer-link:link {
+  margin-bottom: 1.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.social-icon {
+  width: 2.4rem;
+  height: 2.4rem;
 }
