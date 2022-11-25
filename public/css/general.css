@@ -48,3 +48,35 @@
         Medium: 11px
 
 */
+
+/*
+    GENERAL COMPONENTS
+*/
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.9rem;
+
+  font-size: 1.6rem;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+
+  transition: all 0.5s;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
