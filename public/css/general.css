@@ -80,6 +80,7 @@
   margin-bottom: 3.2rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -93,6 +94,9 @@
   letter-spacing: 0.15rem;
 
   transition: all 0.5s;
+
+  border: none;
+  font-family: inherit;
 }
 
 .margin-right-sm {
@@ -156,7 +160,7 @@ strong {
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #e67e22;
+  color: rgb(230, 126, 34);
   text-decoration: none;
   border-bottom: 1px solid currentColor;
 }
@@ -165,4 +169,9 @@ strong {
 .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 126, 34, 0.075);
 }
