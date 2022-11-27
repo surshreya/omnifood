@@ -44,3 +44,29 @@ allLinks.forEach((link) => {
     }
   });
 });
+
+/*
+ * Implement sticky navigation after hero section
+ */
+
+const heroSectionEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    if (ent.isIntersecting === false) {
+      headerEl.classList.add("sticky");
+    }
+
+    if (ent.isIntersecting === true) {
+      headerEl.classList.remove("sticky");
+    }
+  },
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: "-120px",
+  }
+);
+
+obs.observe(heroSectionEl);
