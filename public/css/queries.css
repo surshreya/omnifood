@@ -16,7 +16,7 @@
 }
 
 /*
-    1344 px = Landscape Tablets
+    1200 px = Landscape Tablets
 */
 @media (max-width: 75em) {
   html {
@@ -50,5 +50,69 @@
 
   .testimonials-box {
     padding: 9.6rem 3.2rem;
+  }
+}
+
+/*
+    970 px Tablets
+*/
+@media (max-width: 62em) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-hero {
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(235, 152, 78, 0.1),
+        rgba(230, 126, 34, 0.1)
+      ),
+      url(../img/hero_rd.jpg);
+    background-size: cover;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+  }
+
+  .hero-text-box {
+    text-align: center;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 4.8rem;
+  }
+
+  .hero-img {
+    display: none;
+    width: 75%;
+  }
+
+  .heading-primary,
+  .hero-description,
+  .delivered-stats {
+    color: whitesmoke;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .step-number {
+    font-size: 6.4rem;
+  }
+
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 2.4rem;
+  }
+
+  .section-testimonial-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
