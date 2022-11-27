@@ -52,6 +52,27 @@
 /*
     GENERAL COMPONENTS
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 
+    Default font size is 16px, we set it as 10px, 10/16=0.625
+ */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
 
 .heading-primary {
   font-size: 5.2rem;
