@@ -1,6 +1,7 @@
 /*
-    HEADER SECTION
+  --------------------------------------  HEADER SECTION ----------------------------------
 */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -10,7 +11,7 @@ header {
   background-color: #fdf2e9;
 
   /*
-    We will make the header sticky, that's why set height
+    Set height because of sticky navigation
   */
   height: 9.6rem;
   padding: 0 4.8rem;
@@ -79,7 +80,7 @@ header {
 }
 
 /*
-    HERO SECTION
+ --------------------------------------  HERO SECTION ----------------------------------
 */
 
 .section-hero {
@@ -165,7 +166,7 @@ header {
 }
 
 /*
-  FEATURED IN
+-------------------------------------- FEATURED IN SECTION ----------------------------------
 */
 
 .section-featured-in {
@@ -190,13 +191,14 @@ header {
 .logos img {
   height: 3.2rem;
   /*
-  Make the images black
+  Makes the images black
   */
   filter: brightness(0);
   opacity: 50%;
 }
+
 /*
-  HOW IT WORKS 
+ ------------------------------------ HOW IT WORKS SECTION -------------------------------------
 */
 
 .section-how {
@@ -258,7 +260,7 @@ header {
 }
 
 /*
-  MEALS
+ ------------------------------------ MEALS SECTION -------------------------------------
 */
 
 .section-meal {
@@ -366,7 +368,7 @@ header {
 }
 
 /*
-  TESTIMONIALS + GALLERY
+ --------------------------TESTIMONIALS + GALLERY SECTION -------------------------------------
 */
 
 .section-testimonial-gallery {
@@ -428,7 +430,7 @@ header {
 }
 
 /*
-  PRICING
+ ------------------------------------ PRICING SECTION -------------------------------------
 */
 
 .section-pricing-features {
@@ -542,8 +544,9 @@ header {
 }
 
 /*
-  CTA
+ ------------------------------------ CTA SECTION -------------------------------------
 */
+
 .section-cta {
   padding: 3.2rem 0 9.6rem 0;
 }
@@ -632,7 +635,7 @@ select {
 }
 
 /*
-FOOTER
+ ------------------------------------ FOOTER SECTION -------------------------------------
 */
 
 footer {

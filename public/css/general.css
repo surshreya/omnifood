@@ -1,4 +1,6 @@
 /*
+  ------------------------------ OMNIFOOD STYLE SETTINGS--------------------------------
+
     TYPOGRAPHY SECTION
         Font sizes (px)
             10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
@@ -50,7 +52,7 @@
 */
 
 /*
-    GENERAL COMPONENTS
+  ------------------------------UNIVERSAL/ DEFAULT SETTINGS--------------------------------  
 */
 * {
   margin: 0;
@@ -75,6 +77,13 @@ body {
   overflow-x: hidden;
 }
 
+strong {
+  font-weight: 500;
+}
+
+/*
+  ------------------------------GENERAL/REUSABLE COMPONENTS--------------------------------  
+*/
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
@@ -100,6 +109,16 @@ body {
   color: #333;
   letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
+}
+
+.subheading {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #cf711f;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
 }
 
 .btn,
@@ -159,19 +178,6 @@ body {
 
 .grid--5--cols {
   grid-template-columns: repeat(5, 1fr);
-}
-.subheading {
-  display: inline-block;
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #cf711f;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-bottom: 1.2rem;
-}
-
-strong {
-  font-weight: 500;
 }
 
 .margin-bottom-md {

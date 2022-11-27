@@ -3,7 +3,7 @@
 */
 
 /*
-    1344 px = Smaller desktops
+  ---------------------------------  1344 px = Mid desktops -----------------------------------
 */
 @media (max-width: 84em) {
   .hero {
@@ -16,7 +16,7 @@
 }
 
 /*
-    1200 px = Landscape Tablets
+ ------------------------  1200 px = Landscape Tablets/Smaller Desktops ------------------------
 */
 @media (max-width: 75em) {
   html {
@@ -40,7 +40,7 @@
     font-size: 2.4rem;
   }
 
-  header {
+  .header {
     padding: 0 3.2rem;
   }
 
@@ -54,7 +54,7 @@
 }
 
 /*
-    970 px Tablets
+  ---------------------------------------  970 px = Tablets ------------------------
 */
 @media (max-width: 62em) {
   html {
@@ -186,101 +186,105 @@
   /*
     704 px Smaller Tablets
   */
-  @media (max-width: 44em) {
-    .grid--3--cols,
-    .grid--4--cols {
-      grid-template-columns: repeat(2, 1fr);
-    }
+}
 
-    .diets {
-      grid-column: 1/-1;
-      justify-self: center;
-    }
-
-    .heading-secondary {
-      margin-bottom: 4.8rem;
-    }
-
-    .pricing-plan {
-      width: 100%;
-    }
-
-    .grid--footer {
-      grid-template-columns: repeat(6, 1fr);
-    }
-
-    .nav-col {
-      grid-row: 1;
-      grid-column: span 2;
-    }
-    .logo-col {
-      grid-column: span 4;
-    }
+/*
+ ---------------------------------------  704px px = Smaller Tablets ------------------------
+*/
+@media (max-width: 44em) {
+  .grid--3--cols,
+  .grid--4--cols {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  /*
-    550px modiles
-  */
-  @media (max-width: 30em) {
-    .grid--3--cols,
-    .grid--4--cols,
-    .grid--2--cols {
-      grid-template-columns: 1fr;
-    }
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
 
-    .hero {
-      padding: 0 3.2rem;
-    }
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
 
-    .section-hero {
-      height: 70vh;
-    }
+  .pricing-plan {
+    width: 100%;
+  }
 
-    .btn,
-    .btn:link,
-    .btn:visited {
-      padding: 2.4rem 1.6rem;
-    }
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
 
-    .logos img {
-      height: 1.2rem;
-    }
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+  .logo-col {
+    grid-column: span 4;
+  }
+}
 
-    .section-how {
-      padding: 6.4rem 0;
-    }
+/*
+ ---------------------------------------  550px px = Mobiles ------------------------
+*/
+@media (max-width: 30em) {
+  .grid--3--cols,
+  .grid--4--cols,
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
 
-    .step-img-box:nth-child(2) {
-      grid-row: 1;
-    }
+  .hero {
+    padding: 0 3.2rem;
+  }
 
-    .step-img-box:nth-child(6) {
-      grid-row: 5;
-    }
+  .section-hero {
+    height: 70vh;
+  }
 
-    .testimonials {
-      grid-template-columns: 1fr;
-    }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
 
-    .testimonials-box {
-      padding: 4.8rem 3.2rem;
-    }
+  .logos img {
+    height: 1.2rem;
+  }
 
-    .gallery {
-      grid-template-columns: repeat(4, 1fr);
-    }
+  .section-how {
+    padding: 6.4rem 0;
+  }
 
-    .cta {
-      grid-template-columns: 1fr;
-    }
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
 
-    .cta-box {
-      padding: 3.2rem;
-    }
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
 
-    .cta-img {
-      height: 36rem;
-      grid-row: 1;
-    }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-box {
+    padding: 4.8rem 3.2rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-box {
+    padding: 3.2rem;
+  }
+
+  .cta-img {
+    height: 36rem;
+    grid-row: 1;
   }
 }
